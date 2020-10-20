@@ -1,0 +1,23 @@
+.swiper-container{
+    height: 100vh;
+
+    .slider{
+        align-self: center;
+        height: 50vh;
+    }
+
+    .slide{
+        padding-top: 9rem;
+        align-self: center;
+    }
+}
+
+::ng-deep .swiper-button-next, ::ng-deep .swiper-button-prev {
+    color: white !important;
+}
+
+#back-btn{
+    position: absolute;
+    left: 30px;
+    bottom: 30px;
+}
