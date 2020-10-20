@@ -1,1 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/scss/bootstrap";
+
+
+html,
+body{
+    width: 100%;
+    min-height: 100%;
+}
+
+body{
+    background: transparent linear-gradient(119deg, #E090DA 0%, #7E49AC 100%) 0% 0% no-repeat padding-box;
+}
