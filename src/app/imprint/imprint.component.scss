@@ -1,23 +1,8 @@
-.swiper-container{
-    height: 100vh;
-
-    .slider{
-        align-self: center;
-        height: 50vh;
-    }
-
-    .slide{
-        padding-top: 9rem;
-        align-self: center;
-    }
+h1{
+    font-weight: 900;
+    font-size: 1em;
 }
 
-::ng-deep .swiper-button-next, ::ng-deep .swiper-button-prev {
-    color: white !important;
-}
-
-#back-btn{
-    position: absolute;
-    left: 30px;
-    bottom: 30px;
+#close-btn {
+    margin-top: 5rem;
 }

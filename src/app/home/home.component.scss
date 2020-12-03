@@ -3,6 +3,12 @@
 }
 #logo {
     align-self: center;
+    max-width: 100%;
+
+    @media only screen and (max-width: 535px) {
+        padding: 0 15px;
+        width: 100%;
+    }
 }
 
 nav{
@@ -10,6 +16,14 @@ nav{
     left: 30px;
     bottom: 30px;
     font-size: 20px;
+    font-weight: 300;
+
+    .slogan {
+        font-weight: 700;
+        color: #FFEE3A;
+        font-size: 1.8rem;
+        margin-bottom: 8px;
+    }
 
     ul,
     li{
@@ -28,7 +42,6 @@ nav{
     a{
         color: white;
         margin-right: 10px;
-        text-transform: uppercase;
 
         &:hover{
             text-decoration: none;
