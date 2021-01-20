@@ -1,0 +1,17 @@
+.background-wrapper{
+    background: linear-gradient(119deg, #FF4242 0%, #EE2929 100%);
+    min-width: 100vw;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+    img {
+        max-width: 100%;
+        height: auto;
+    }
+}

@@ -5,7 +5,8 @@ import { ImprintComponent } from './imprint/imprint.component';
 
 const routes: Routes = [
   { path: '', component: HomeComponent },
-  { path: 'imprint', component: ImprintComponent }
+  { path: 'imprint', component: ImprintComponent },
+  { path: 'cupking', loadChildren: () => import('./cupking/cupking.module').then(m => m.CupkingModule) }
 ];
 
 @NgModule({
